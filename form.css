@@ -47,7 +47,7 @@ fieldset{
       background-color: rgb(169, 223, 144);
 
 }
-@media (max-width:750px) {
+@media (max-width:550px) {
    .form1{
     position:absolute;
     display: block;
