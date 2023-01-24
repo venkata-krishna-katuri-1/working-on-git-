@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <h1>Registration form </h1>
+    <p>please fill out the form with details required..</p>
+    <div class="form1">
+    <form>
+        <fieldset>
+        <label for="name">Enter your name : </label>
+        <input type="text" id="name"><br>
+        <label for="number">Enter phone number: </label>
+        <input type="number" id="number"><br>
+        <label for="mailid">Enter your Mail-id :</label>
+        <input type="email" id="mailid"><br>
+        <label for="password">Create password : </label>
+        <input type="password" id="password" required ><br>
+        <input type="submit" onclick="myfunc()" id="submit" value="click here for registration">
+    
+        </fieldset>
+    </form>
+</div>
+<script>
+    function myfunc(){
+        setTimeout( function fun1(){
+        window.alert("**** 👍 👍 YOUR REGISTRATION IS COMPLETED 👍 👍 ***")
+    },5000
+    );
+}
+
+</script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+body{
+    background-color: rgba(182, 235, 203, 0.724);
+    color: rebeccapurple;
+    font-weight: 500;
+    font-size: 20px;
+    margin: auto;
+}
+h1 , p {
+    text-align: center;
+}
+fieldset{
+    width: 20em;
+    align-items: center;
+    padding: 10px 10px;
+    margin: auto;
+    border: 2px solid rgb(0, 119, 255) ;
+    border-radius: 8px;
+    height: 18em;
+}
+
+input{
+    border: 2px solid blue;
+    font-weight: 500;
+    width: 12em;
+    margin-left: 2em;
+    border-radius: 10px;
+    padding: 7px;
+    margin: 10px;
+    background-color: rgba(225, 234, 198, 0.761);
+    color: steelblue;
+}
+
+#submit{
+    font-size: 18px;
+    width: 250px;
+    color: white;
+   background-color: rgb(154, 120, 255);
+    padding: 15px 15px;
+    margin: 30px 70px ;
+    border-radius: 20px;
+}
+
+#submit:hover{
+    scale: 1.5;
+}
+fieldset{
+      background-color: rgb(169, 223, 144);
+
+}
+@media (max-width:750px) {
+   .form1{
+    position:absolute;
+    display: block;
+    background-color: rgb(39, 107, 150);
+    margin-left: 50px;
+    
+}
+}
